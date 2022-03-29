@@ -1,0 +1,74 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+body{
+    background-color: bisque;
+}
+
+.top-div {
+    height: 1rem;
+    background-color: #0d0d8f;
+}
+
+
+.home-container {
+    position: relative;
+    color:white;
+
+  }
+
+ .Home-img {
+    height:40rem;
+    width: 100%;
+    
+}
+
+@include media-breakpoint-down(sm) {
+.home-content{
+    position: absolute;
+    top: 5%;
+    right: 1%;
+    left: 1%;
+    
+  }
+
+  .home-details {
+      text-align: left;
+      margin: 5% !important;
+      
+  }
+
+}
+
+@include media-breakpoint-up(sm) {
+
+.home-content{
+    position: absolute;
+    top: 10%;
+    right: 15%;
+    left: 15%;
+    
+  }
+
+  .home-details {
+      text-align: left;
+      margin-left: 10% ;
+      margin-top: 5%;
+      
+  }
+
+}
+
+  .home-title {
+    text-align: center;
+  }
+
+
+.key-word {
+    color: yellowgreen;
+}
+
+.card-custom {
+    border: 1px solid black;
+   
+}
+
